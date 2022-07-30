@@ -16,7 +16,7 @@ ul, li{
 @media(min-width:900px){
     .member_wrap{
         position: relative;
-        width: 80%;
+        max-width: 1024px;
         height: 110px;
         margin: 0 auto;
         z-index: 101;
@@ -56,7 +56,7 @@ ul, li{
     /*----------------header-----------------*/
 
     header{
-        width: 80%;
+        max-width: 1024px;
         height: 110px;
         position: relative;
         margin: 0 auto;
@@ -97,7 +97,7 @@ ul, li{
     }
     .menu_wrap span{
         color: white;
-        font-size: 1rem;
+        font-size: 0.9rem;
         white-space: nowrap;
     }
 
@@ -106,7 +106,7 @@ ul, li{
 
     main{
         position: relative;
-        width: 80%;
+        max-width: 1024px;
         margin: 0 auto;
     }
     .title{
@@ -231,7 +231,7 @@ ul, li{
         margin: 5% 0 0 5%;
     }
     .story_box{
-        margin: 5%;
+        margin: 5% 5% 15% 5%;
         display: block;
     }
     .username{
@@ -240,7 +240,10 @@ ul, li{
         font-size: 0.8rem;
     }
     .storyname{
-        font-size: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 0.9rem;
     }
     .story{
         font-size: 0.8rem;
@@ -263,9 +266,9 @@ ul, li{
 
     footer{
         position: relative;
-        width: 80%;
+        max-width: 1024px;
         height: 300px;
-        left: 10vw;
+        margin: 0 auto;
         margin-top: 10vw;
         background-color: gray;
         bottom: 0;
